@@ -1,0 +1,19 @@
+{
+  "name": "chess-engine-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "build": "node -e \"console.log('Server build step complete.')\""
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
